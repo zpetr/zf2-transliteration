@@ -1,0 +1,31 @@
+{
+    "name": "zpetr/zf2-transliteration",
+    "type": "library",
+    "description": "Transliteration module for Zend Framework 2",
+    "keywords" : [
+		"module",
+		"zf2",
+		"transliteration"
+	],
+    "homepage": "https://github.com/zpetr/zf2-transliteration",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Petr Glushchenko",
+            "email": "petr.glu@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.23",
+		"zendframework/zendframework" : "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "zPetr\\Transliteration\\": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}
