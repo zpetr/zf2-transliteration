@@ -7,6 +7,11 @@ namespace zPetr\Transliteration;
 
 class Transliteration
 {
+	public function transcribe($string, $unknown = '?', $source_langcode = NULL)
+	{
+		return $this->transliterate($string, $unknown, $source_langcode);
+	}
+	
 	public function transliterate($string, $unknown = '?', $source_langcode = NULL)
 	{
 		return 	$this->transliteration_process($string, $unknown, $source_langcode);
