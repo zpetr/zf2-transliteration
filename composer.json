@@ -11,14 +11,14 @@
     "license": "BSD",
     "authors": [
         {
-            "name": "Petr Glushchenko",
+            "name": "Petr Guelin (Glushchenko)",
             "email": "petr.glu@hotmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php" : ">=5.3.23",
-		"zendframework/zendframework" : "~2.3"
+		"zendframework/zendframework" : "2.*"
     },
     "autoload": {
         "psr-4": {
