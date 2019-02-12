@@ -1,7 +1,7 @@
 zf2-transliteration
 ===================
 
-Transliteration module for Zend Framework 2
+Transliteration module
 
 
 ----------
